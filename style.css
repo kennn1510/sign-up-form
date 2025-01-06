@@ -24,6 +24,16 @@
   height: 100%;
 }
 
+.odin-text {
+  font-family: Norse-Bold;
+  color: white;
+}
+.credit-text {
+  color: white;
+}
+.credit-text > a {
+  color: white;
+}
 .form-section {
   flex: 1;
 }
