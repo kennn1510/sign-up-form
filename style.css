@@ -2,3 +2,39 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+.container {
+  display: flex;
+}
+
+.left-leaves-section {
+  flex: 1 1 40%;
+  position: relative;
+}
+
+.leaves {
+  position: absolute;
+  width: 100%;
+}
+
+.odin-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4% 40%;
+  top: 40%;
+}
+
+.odin {
+  width: 100%;
+}
+
+.odin-container > p {
+  color: white;
+}
+
+.right-form-section {
+  flex: 1 1 60%;
+}
