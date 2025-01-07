@@ -18,6 +18,9 @@
 }
 
 .image-section {
+  display: flex;
+  flex-direction: column;
+
   flex: 1;
   background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
@@ -44,6 +47,12 @@
   font-family: Norse-Bold;
   color: white;
   font-size: 8vw;
+}
+
+.credit-section {
+  align-self: center;
+  position: absolute;
+  top: 97%;
 }
 .credit-text {
   color: white;
