@@ -24,9 +24,26 @@
   height: 100%;
 }
 
+.odin-section {
+  background-color: rgba(0, 0, 0, 40%);
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 14vw;
+}
+
+.odin-image {
+  position: relative;
+  width: 10vw;
+}
+
 .odin-text {
+  position: relative;
   font-family: Norse-Bold;
   color: white;
+  font-size: 8vw;
 }
 .credit-text {
   color: white;
